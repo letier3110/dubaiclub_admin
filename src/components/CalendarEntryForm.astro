@@ -1,0 +1,23 @@
+---
+import { t, changeLanguage } from "i18next";
+import CalendarForm from "./CalendarForm.svelte";
+
+changeLanguage("uk");
+
+// const getWeekDay = (date: Date) => {
+// 	const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+// 	return t(days[date.getDay()]);
+// }
+
+// const formatNumber = (num: number) => {
+// 	return num.toString().padStart(2, "0");
+// }
+
+// export interface Props {
+// 	event: IEvent;
+// }
+
+---
+<div>
+	<CalendarForm client:load />
+</div>

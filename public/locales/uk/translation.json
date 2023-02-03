@@ -1,0 +1,19 @@
+{
+  "site": {
+    "title": "Admin for Dubai Open Club."
+  },
+  "home": {
+    "title": "Dubai Open Club",
+    "noItems": "No items"
+  },
+  "format": "Мафія в",
+  "createBtn": "Створити",
+  "createNewEntry": "Create new entry",
+  "Monday": "Понеділок",
+  "Tuesday": "Вівторок",
+  "Wednesday": "Середа",
+  "Thursday": "Четвер",
+  "Friday": "П'ятниця",
+  "Saturday": "Субота",
+  "Sunday": "Неділя"
+}

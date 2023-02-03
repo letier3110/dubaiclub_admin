@@ -6,11 +6,15 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
+    "translate": "astro-i18next generate",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.0.6"
+    "@astrojs/svelte": "^2.0.1",
+    "astro": "^2.0.4",
+    "astro-i18next": "^1.0.0-beta.17",
+    "svelte": "^3.54.0"
   }
 }
